@@ -6,9 +6,11 @@
   <test thread-count="5" name="Test">
 <parameter name="Broweser-Name" value="chrome"></parameter>
     <classes>
-
-
-<class name="com.leaftaps.ui.test.TC004_MergeLead"/>
+ 	  <class name="com.leaftaps.ui.test.TC001_CreateLead"/>
+    <class name="com.leaftaps.ui.test.TC002_EditLead"/>
+    <class name="com.leaftaps.ui.test.TC003_DuplicateLead"/>
+    <class name="com.leaftaps.ui.test.TC004_MergeLead"/>
+    <class name="com.leaftaps.ui.test.TC005_DeleteLead"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- POM Suite -->
